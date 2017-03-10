@@ -24,3 +24,5 @@ date = Date.parse('2015-09-08')
   Episode.create(date: date, number: num)
   date = date.next
 end
+
+User.create(username: 'stephencolbert', password: 'bears')
