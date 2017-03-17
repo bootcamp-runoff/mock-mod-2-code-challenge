@@ -1,6 +1,6 @@
 # Rails Assessment
 
-It's time to put our Rails know-how to the test. Today, we have an basic new application.
+It's time to put our Rails know-how to the test. Today, we have a basic new application.
 
 ## Objectives
 + MVC
@@ -31,3 +31,5 @@ Luckily, another developer has already started the job. We have a model for gues
 
 + Remember we want to be RESTful. What URL should show info about a particular guest? What URL should show a form to create an appearance? What controller actions are associated?  
 + There are probably many ways to set this up.
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/immersive-rails-assessment'>Immersive Rails Assessment</a> on Learn.co and start learning to code for free.</p>
