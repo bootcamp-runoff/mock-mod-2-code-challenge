@@ -18,7 +18,7 @@ Before you begin, fork and clone this repo, run `rake db:migrate` and `rake db:s
 
 You've just been hired by 'The Late Show With Stephen Colbert' - congratulations! The production staff needs help keeping track of all of the guests that they've had on the show. To do this, we need to be able to keep track of each guest and all of their appearances on the show.
 
-Luckily, another developer has already started the job. We have a model for guests and a model for episodes. Visiting '/guests' displays all of the guests, and visiting '/episodes' displays all of the episodes. We just don't have a way to associate an episode with a guest. Remember that guests can appear on the show many times, and and episode can (and usually does) have many guests.
+Luckily, another developer has already started the job. We have a model for guests and a model for episodes. Visiting `'/guests'` displays all of the guests, and visiting `'/episodes'` displays all of the episodes. We just don't have a way to associate an episode with a guest. Remember that guests can appear on the show many times, and and episode can (and usually does) have many guests.
 
 ## Instructions / Deliverables
 1. To log that a specific guest appeared on a certain episode, we'll need to store some additional data. Make the necessary updates to the schema so that a guest can appear on many episodes, as well as an episode having multiple guests.  The appearance should also have a way to store the guest's rating for that episode in the range of 1 to 5.
