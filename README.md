@@ -25,7 +25,11 @@ Luckily, another developer has already started the job. We have a model for gues
 
 2. As a user, I should be able to fill out a form to create a new appearance. I should be able to choose an existing guest, an existing episode, and add a rating. Upon successfully creating an appearance, I should be redirected to the selected episode's show page.
 
+![Form for relating an episode and a guest](form.gif)
+
 3. On the guests index page, clicking on a guest's name should take us to a detail view about each guest. This View should include the guest's name and occupation.
+
+![Showing what happens when we click on a click on the Guest Index page](guest_index_to_show.gif)
 
 4. As a user, I should be able to view all of the guests for a particular episode. This means that we'll need an episode's show page that lists out all of the guests who were on that episode.
 
