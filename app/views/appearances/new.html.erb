@@ -1,0 +1,14 @@
+<h1>Add A New Appearance</h1>
+
+<%= form_for @appearance do |f| %>
+<%= f.label "Guest" %>
+<%= f.collection_select :guest_id, Guest.all, :id, :name %>
+</br>
+<%= f.label :episode_id %>
+<%= f.collection_select :episode_id, Episode.all, :id, :number %>
+</br>
+<%= f.label "Rating" %>
+<%= f.number_field :rating %>
+</br>
+<%= f.submit "?WOW?" %>
+<%end%>
